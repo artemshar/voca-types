@@ -1,0 +1,22 @@
+{
+  "name": "voca-types",
+  "version": "1.0.0",
+  "description": "Shared data types for vocaboard FE and BE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/artemshar/voca-types.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Artem Shar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/artemshar/voca-types/issues"
+  },
+  "homepage": "https://github.com/artemshar/voca-types#readme"
+}
