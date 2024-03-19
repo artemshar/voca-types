@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/artemshar/voca-types.git"
+    "url": "git://git@github.com/artemshar/voca-types.git"
   },
   "keywords": [
     "typescript"

@@ -10,22 +10,22 @@ export interface IWord {
   ownDescription: string;
   imageURL: string;
   language: ILanguage; // model Language
-	includedInLists?: IList[] // lists to which the word has been added
+  includedInLists?: IList[]; // lists to which the word has been added
 }
 export type ILanguage = {
-	id: string,
-	label: string,
-}
+  id: string;
+  label: string;
+};
 export interface IList {
   id: string;
-	name: string;
-	description?: string;
-	coverURL?: string;
-	dateAdded: {
+  name: string;
+  description?: string;
+  coverURL?: string;
+  dateAdded: {
     date: string;
     time: string;
     full: Date | string;
   };
-	url: string;
-	language: ILanguage;
+  url: string;
+  language: ILanguage;
 }
